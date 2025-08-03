@@ -204,8 +204,8 @@ document.addEventListener('DOMContentLoaded', () => {
             const dias = parseInt(document.getElementById('dias_contratados').value, 10);
             const fecha_inicio = document.getElementById('fecha_inicio').value;
             
-            if (dias < 1 || dias > 30) {
-                alert('Los días contratados deben estar entre 1 y 30.');
+            if (dias < 1 || dias > 180) {
+                alert('Los días contratados deben estar entre 1 y 180.');
                 return;
             }
 
