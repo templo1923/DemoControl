@@ -177,7 +177,7 @@ document.addEventListener('DOMContentLoaded', () => {
             } else {
                 modalTitle.textContent = 'Agregar Nuevo Cliente';
                 document.getElementById('fecha_inicio').value = new Date().toISOString().split('T')[0];
-                document.getElementById('dias_contratados').value = 30;
+                document.getElementById('dias_contratados').value = 365;
             }
             actualizarVencimientoDisplay();
             modal.style.display = 'flex';
