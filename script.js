@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
     loginForm.addEventListener('submit', (e) => {
         e.preventDefault();
         const password = passwordInput.value;
-            if (password === 'demo1') {
+            if (password === 'demo11') {
             sessionStorage.setItem('isLoggedIn', 'true');
             mostrarApp();
         } else {
