@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
         } else {
             loginError.style.display = 'block';
             loginForm.classList.add('shake');
-            setTimeout(() => loginForm.classList.remove('shake'), 500);
+            setTimeout(() =>  .classList.remove('shake'), 500);
         }
     });
 
